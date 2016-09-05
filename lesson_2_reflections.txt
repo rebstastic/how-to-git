@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+.git folder is created. It stores metadata needed for backward and forward work
+with the repository, e.g. it stores history of the repository.
+
+---
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+It stores the files that are ready to be committed as one logical unit.
