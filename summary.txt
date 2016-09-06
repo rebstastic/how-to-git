@@ -1,1 +1,11 @@
+git diff
+    Differences between working area and staging area.
 
+git diff --staged
+    Differences between staging area and LOCAL repository.
+
+git diff <old_commit> <new_commit>
+    Differences between commits.
+
+git show <commit>
+    Differences between commit and its parent.
