@@ -1,7 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-.git folder is created. It stores metadata needed for backward and forward work
-with the repository, e.g. it stores history of the repository.
+.git folder is created. It stores metadata that keeps track of changes in files,
+needed for backward and forward work with the repository. The HEAD file is one
+example of this metadata and symbolically references the current commit.
 
 ---
 
@@ -9,3 +10,43 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 It stores the files that are ready to be committed as one logical unit.
+
+---
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+git diff: difference between working directory and staging area.
+
+---
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Master branch should be production-ready all the time. Other branches would help
+when I want to try out new feature, localize the app or similar.
+
+---
+
+How do the diagrams help you visualize the branch structure?
+
+I can easily keep track of which branches contains which commit.
+
+---
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The result is a new commit that contains changes from both branches, living on
+the currently checked out branch. The diagrams demonstrate the relationship
+between commits in a branch and show the dependency of later commits on their
+parent commits beforehand.
+
+---
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Pros on automatic merging is that it doesn't involve the user if he's
+unnecessary. Con in that sometimes it wouldn't merge commits the way the user
+might want. Manual merging is great in that situation.
