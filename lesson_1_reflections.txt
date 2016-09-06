@@ -35,8 +35,8 @@ Logical change in programming can affect multiple files.
 
 How can you use the commands git log and git diff to view the history of files?
 
-I can use git log to view all my commits. I can use git diff to see changes
-between two commits.
+I can use git log to view all my commits in chronological order. I can use git
+diff to compare one commit against another.
 
 ---
 
