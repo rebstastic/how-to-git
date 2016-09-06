@@ -1,0 +1,54 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+It's useful to use the remote repository when working on a collaborative project.
+Saving your work such as code, lectures or book is a smart thing to do considering
+that worst thing can happen to your local drive any time.
+
+---
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+Sometimes I can't or don't want to update a project. Overall, changes can cause
+conflicts, and there is no point in resolving those before I think it's
+necessary.
+
+---
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+Branches are created locally in order to add a new feature, fix a bug etc.
+Cloning is used to copy a repository from a remote to a local machine, or from
+a local machine to a local machine.
+Fork is used to copy a repository from a remote to another remote.
+
+---
+
+What is the benefit of having a copy of the last known state of the remote stored
+locally?
+
+If I made changes locally and my teammate pushed changes on the remote, in order
+to pull and merge his changes with mine, I have to have a copy of the last known
+state of the remote.
+
+---
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+It would be harder. I would have to copy teammates' local repository, search for
+differences and update the project with his changes manually.
+
+---
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+When working on a collaborative project situated on some remote, it's better to
+make changes on separate branch. This way, you can easily keep your master branch
+up-to-date with master of the original repository, and merge changes from master
+into your branch when you are ready. By using a different branch, you can push
+your changes to GitHub for other people to review it, without directly messing
+up the master branch.
